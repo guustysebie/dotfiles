@@ -16,7 +16,7 @@ vim.opt.colorcolumn = "120"             -- Set an 80 column border
 --vim.opt.cursorline = true              -- Highlight current line
 vim.opt.ttyfast = true                 -- Speed up scrolling
 vim.opt.clipboard = "unnamedplus"      -- Use system clipboard
-
+vim.wo.wrap = false                    -- Disable long lines wrapping around
 -- Syntax Highlighting and Filetype Detection
 vim.cmd("filetype plugin indent on")   -- Enable file type detection and plugins
 vim.cmd("syntax on")                   -- Enable syntax highlighting

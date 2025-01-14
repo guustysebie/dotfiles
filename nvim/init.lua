@@ -51,7 +51,8 @@ vim.opt.smartcase = true
 --  See `:help 'list'`
 --  and `:help 'listchars'`
 vim.opt.list = true
-vim.opt.listchars = { tab = '?? ', trail = '??', nbsp = '???' }
+vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+
 
 
 -- Clear highlights on search when pressing <Esc> in normal mode
